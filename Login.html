@@ -1,0 +1,80 @@
+<! doctype html>
+<html>
+
+<head>
+
+
+	
+<script>
+	function myfun{
+var a=document.getElementById("Pass1").value;
+var b=document.getElementById("Pass2").value;
+if(a=="")
+{
+alert("**Please fill the PASSWORD");
+return false;
+}
+if(b=="")
+{
+alert("**Please fill the PASSWORD");
+return false;
+	}
+}
+
+
+</script>
+	
+<style>
+	body{
+		padding: 0;
+		margin: 0;
+		background-color: #EDE7F6  ;
+	}
+h1{
+	background-color:#F1948A ;
+	text-color:#E91E63;
+	text-align: center;
+}
+h1:hover{
+	color:white;
+}
+login{
+	color:#000066 ;
+	text-align: center;
+	background-color: #00FF00;
+}
+.x{
+	color:#000066 ;
+}
+button{
+	color:#AD1457 ;
+	background-color:pink;
+}
+button:hover{
+	color:#330033;
+	width:60px;
+}
+
+</style>
+<form method="post" onsubmit="return system()">
+<login>
+<h1> Login Form<hr> </h1>
+<body>
+	<button type="submit"><a href="gym.html">HOME</a></button>
+	<br>
+<div class="x">
+Username:
+<input type="text" > <br><br>
+Password:
+<input type="Password" name="pass" > <br>
+<br>
+<br>
+<button type= "Submit"> Login<a href="gym.html"></a></button>
+<br>
+<br>
+<br>
+</div>
+</form>
+</login>
+</body>
+</html>
